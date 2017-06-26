@@ -2,7 +2,7 @@ import re
 
 
 def fun(s):
-    return re.match('^[a-z0-9\-_]+@[a-z0-9]+\.[a-z]{1,3}$', s)
+    return re.match('^[\w\-]+@[a-z0-9]+\.[a-z]{1,3}$', s)
 
 
 emails = ['its@gmail.com1',
